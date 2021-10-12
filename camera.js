@@ -12,5 +12,8 @@ c.width = video.width;
 c.height = video.height;
 var ctx = c.getContext("2d");
 ctx.drawImage(video, 0, 0, 640, 480);
+video.addEventListener("touchstart",capteaza);
+video.addEventListener("mousedown",capteaza);
 }
 //-----------------------------------------------
+
